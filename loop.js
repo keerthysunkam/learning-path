@@ -1,0 +1,4 @@
+for(let i=0;i<5;i++)
+{
+console.log("The value of I is:" + i);
+}
