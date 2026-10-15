@@ -1,3 +1,8 @@
-let myname="kranthi";
-myname="rachakonda";
-console.log(myname);
+let person = {
+  name: "Alice",
+  age: 30,
+  city: "Boston"
+};
+console.log(person.name); // "Alice"
+console.log(person["age"]); // 30
+console.log(person.city); // "Boston"
